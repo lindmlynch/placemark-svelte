@@ -51,17 +51,17 @@
         <Chart data={byPlacemark} type="pie" />
     </div>
     <div class="column box has-text-centered">
-        <h1 class="title is-4">Time to date</h1>
+        <h1 class="title is-4">Input Trail Details</h1>
         <TrailForm {placemarkList} />
     </div>
 </div>
 <div class="columns">
     <div class="column box has-text-centered">
-        <h1 class="title is-4">Trails By Mode of Transport</h1>
+        <h1 class="title is-4">Trail Map</h1>
         <LeafletMap height={40} bind:this={map} />
     </div>
     <div class="column box has-text-centered">
-        <h1 class="title is-4">Time to date</h1>
+        <h1 class="title is-4">Trail List</h1>
         <TrailList {trails} />
     </div>
 </div>

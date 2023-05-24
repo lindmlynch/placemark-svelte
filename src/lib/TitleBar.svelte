@@ -6,7 +6,7 @@
 
 <div class="box has-text-centered columns m-2">
     <div class="column is-2">
-        <img src="/hiking.jpg" width="120" alt="img" />
+        <img src="/map.jpg" width="120" alt="img" />
     </div>
     <div class="column">
         <div class="title is-6">{title}</div>
