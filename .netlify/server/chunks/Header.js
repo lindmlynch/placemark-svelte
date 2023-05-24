@@ -10,7 +10,7 @@ const TitleBar = create_ssr_component(($$result, $$props, $$bindings, slots) => 
   if ($$props.subTitle === void 0 && $$bindings.subTitle && subTitle !== void 0)
     $$bindings.subTitle(subTitle);
   $$unsubscribe_loggedInUser();
-  return `<div class="box has-text-centered columns m-2"><div class="column is-2"><img src="/hiking.jpg" width="120" alt="img"></div>
+  return `<div class="box has-text-centered columns m-2"><div class="column is-2"><img src="images/map.jpg" width="120" alt="img"></div>
     <div class="column"><div class="title is-6">${escape(title)}</div>
         <div class="subtitle is-6">${escape(subTitle)}</div></div>
     <div class="column"><i class="fas fa-tree fa-3x" style="color:rgb(95, 96, 173)"></i>

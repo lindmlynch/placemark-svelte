@@ -18,7 +18,7 @@ const Page = create_ssr_component(($$result, $$props, $$bindings, slots) => {
     }
   })}
 
-<div class="columns"><div class="column has-text-centered"><img alt="loop" src="/bolus.jpg" width="300"></div>
+<div class="columns"><div class="column has-text-centered"><img alt="bolus" src="/bolus.jpg" width="300"></div>
     <div class="column"><div class="box"><h1 class="title">Login</h1>
             ${validate_component(LoginForm, "LoginForm").$$render($$result, {}, {}, {})}</div></div></div>`;
 });

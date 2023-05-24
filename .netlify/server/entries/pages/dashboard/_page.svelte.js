@@ -71,9 +71,9 @@ const Page = create_ssr_component(($$result, $$props, $$bindings, slots) => {
 
 <div class="columns m-2 p-2"><div class="column box has-text-centered"><h1 class="title is-4">Trails By Mode of Transport</h1>
         ${validate_component(Base, "Chart").$$render($$result, { data: byPlacemark, type: "pie" }, {}, {})}</div>
-    <div class="column box has-text-centered"><h1 class="title is-4">Time to date</h1>
+    <div class="column box has-text-centered"><h1 class="title is-4">Input Trail Details</h1>
         ${validate_component(TrailForm, "TrailForm").$$render($$result, { placemarkList }, {}, {})}</div></div>
-<div class="columns"><div class="column box has-text-centered"><h1 class="title is-4">Trails By Mode of Transport</h1>
+<div class="columns"><div class="column box has-text-centered"><h1 class="title is-4">Trail Map</h1>
         ${validate_component(LeafletMap, "LeafletMap").$$render(
       $$result,
       { height: 40, this: map },
@@ -85,7 +85,7 @@ const Page = create_ssr_component(($$result, $$props, $$bindings, slots) => {
       },
       {}
     )}</div>
-    <div class="column box has-text-centered"><h1 class="title is-4">Time to date</h1>
+    <div class="column box has-text-centered"><h1 class="title is-4">Trail List</h1>
         ${validate_component(TrailList, "TrailList").$$render($$result, { trails }, {}, {})}</div></div>`;
   } while (!$$settled);
   return $$rendered;
