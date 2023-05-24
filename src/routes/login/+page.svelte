@@ -12,7 +12,7 @@
 
 <div class="columns">
     <div class="column has-text-centered">
-        <img alt="loop" src="/bolus.jpg" width="300" />
+        <img alt="bolus" src="/bolus.jpg" width="300" />
     </div>
     <div class="column">
         <div class="box">
