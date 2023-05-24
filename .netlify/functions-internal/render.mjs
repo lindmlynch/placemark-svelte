@@ -6,7 +6,7 @@ export const handler = init({
 	assets: new Set(["camino.jpg","favicon.png","greenway.png","hiking.jpg","images/bolus.jpg","images/fenit.jpg","images/layers-2x.png","images/layers.png","images/marker-icon-2x.png","images/marker-icon.png","images/marker-shadow.png","kerry.jpg","leaflet.css","walking.jpg"]),
 	mimeTypes: {".jpg":"image/jpeg",".png":"image/png",".css":"text/css"},
 	_: {
-		client: {"start":"_app/immutable/entry/start.ae963c85.js","app":"_app/immutable/entry/app.7a2d1812.js","imports":["_app/immutable/entry/start.ae963c85.js","_app/immutable/chunks/index.ffa5e757.js","_app/immutable/chunks/singletons.cb4086f1.js","_app/immutable/chunks/index.c29af96a.js","_app/immutable/entry/app.7a2d1812.js","_app/immutable/chunks/index.ffa5e757.js"],"stylesheets":[],"fonts":[]},
+		client: {"start":"_app/immutable/entry/start.69e313c0.js","app":"_app/immutable/entry/app.2e252348.js","imports":["_app/immutable/entry/start.69e313c0.js","_app/immutable/chunks/index.ffa5e757.js","_app/immutable/chunks/singletons.d6901be6.js","_app/immutable/chunks/index.c29af96a.js","_app/immutable/entry/app.2e252348.js","_app/immutable/chunks/index.ffa5e757.js"],"stylesheets":[],"fonts":[]},
 		nodes: [
 			() => import('../server/nodes/0.js'),
 			() => import('../server/nodes/1.js'),
